@@ -5,6 +5,11 @@ Features
 - Authentication
 - Cookie Session for /api
 
+To begin add the required env variables
+- NEXT_PUBLIC_SUPABASE_URL
+- NEXT_PUBLIC_SUPABASE_ANON_KEY
+- NEXT_SERVICE_KEY (Supabase Service Key)
+
 
 ## Getting Started
 

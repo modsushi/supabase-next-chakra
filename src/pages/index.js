@@ -16,7 +16,7 @@ export default function Home({client, onLogout}) {
   return (
     <>
       <Head>
-        <title>Masjid Labs</title>
+        <title>Next-Supa-Chakra</title>
         <meta name="description" content="Masjid Labs Software" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

@@ -27,7 +27,7 @@ export default function TopHeader({ onLogout, user }) {
                 <Box display={'flex'} alignItems={'baseline'} gap={2} mt={[-3,0]} ml={[2,5]} textAlign={'center'} onClick={()=>{router.push('/')}} cursor='pointer'>
                 <Heading _hover={{
                     color:'pink.500'
-                }} transition={'all .2s ease-in-out'} fontSize={['lg','2xl']}>Masjid Labs</Heading></Box>
+                }} transition={'all .2s ease-in-out'} fontSize={['lg','2xl']}>Next-Supa-Chakra</Heading></Box>
                 
             <Box mt={0} mr={[5,0]}>
                 <Flex direction={'row'} bg={`${colorMode === 'light' ? 'rgb(196 194 194 / 40%)' : '#2b3e616b'}`} borderRadius='30px' pr={[2, 5]} pl={[2, 5]} pt={2} pb={2} wrap='nowrap' gap={2}>
@@ -62,9 +62,10 @@ export default function TopHeader({ onLogout, user }) {
                     }
                     {!user &&
                         <>
-                        <Link as={NextLink} href='/login?action=1'><Button size={['xs', 'sm']} leftIcon={<FaRegHandshake />}>Sign Up</Button></Link>
-                        <Link as={NextLink} href='/login'><Button size={['xs', 'sm']} leftIcon={<MdLogin />}>Login</Button></Link>
-
+                        <Link  href='/login?action=1'><Button size={['xs', 'sm']} leftIcon={<FaRegHandshake />}>Sign Up</Button></Link>
+                        <Link  href='/login'><Button size={['xs', 'sm']} leftIcon={<MdLogin />}>Login</Button></Link>
+                        <Link  href='/blog'><Button size={['xs', 'sm']} leftIcon={<MdLogin />}>Blog</Button></Link>
+                        
 
                         </>
 
