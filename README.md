@@ -4,6 +4,9 @@ Features
 - Dark Mode
 - Authentication
 - Cookie Session for /api
+- Lemon Squeezy Payments
+- Storage (Supabase)
+- Analytics (Posthog)
 
 To begin add the required env variables
 - NEXT_PUBLIC_SUPABASE_URL
